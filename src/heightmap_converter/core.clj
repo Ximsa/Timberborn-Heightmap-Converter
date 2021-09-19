@@ -44,7 +44,6 @@
                                                                :Array (str/join " " (repeat size "0"))}}}
           :Entities []})))
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
   (if (== (count args) 2)
     (convert (Float/parseFloat (first args)) (second args))
