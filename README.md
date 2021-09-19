@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar heightmap-converter-0.1.0-standalone.jar [args]
+    $ java -jar heightmap-converter-0.1.0-standalone.jar [scale] [filename]
 
 ## Options
 
