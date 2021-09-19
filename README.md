@@ -4,29 +4,18 @@ FIXME: description
 
 ## Installation
 
-Download from http://example.com/FIXME.
+The jar is located at `target/uberjar`- Download the standalone version
 
 ## Usage
-
-FIXME: explanation
-
     $ java -jar heightmap-converter-0.1.0-standalone.jar [scale] [filename]
-
 ## Options
 
 FIXME: listing of options this app accepts.
 
 ## Examples
+    $ java -jar heightmap-converter-0.1.0-standalone.jar 0.1 myHeightmap.png
 
-...
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
