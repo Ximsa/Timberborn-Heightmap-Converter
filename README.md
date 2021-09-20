@@ -14,7 +14,7 @@ FIXME: listing of options this app accepts.
 
 ## Examples
     $ java -jar heightmap-converter-0.1.0-standalone.jar 0.1 myHeightmap.png
-
+An example heightmap can be found in `resources`
 
 
 ## License
