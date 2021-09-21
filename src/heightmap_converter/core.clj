@@ -46,8 +46,9 @@
                                                :MoistureLevels{
                                                                :Array (str/join " " (repeat size "0"))}}}
           :Entities []})))
+
 (defn -main
   [& args]
   (if (== (count args) 2)
     (convert (Float/parseFloat (first args)) (second args))
-    (println "Usage: [scaling] [filename]")))
+    (println "Usage: [max height] [filename]")))
