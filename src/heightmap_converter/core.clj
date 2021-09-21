@@ -3,10 +3,6 @@
   (:require [cheshire.core :as json])
   (:gen-class))
 (use 'mikera.image.core)
-(use 'mikera.image.colours)
-
-
-(defn round [x] (Math/round x))
 
 (defn low-bits
   ([x]
