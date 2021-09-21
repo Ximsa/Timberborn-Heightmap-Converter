@@ -8,9 +8,9 @@ get the release from https://github.com/Ximsa/Timberborn-Heightmap-Converter/rel
 
 
 ## Usage
-    $ java -jar heightmap-converter-0.1.0-standalone.jar [max height] [filename]
+    $ java -jar heightmap-converter-[version]-standalone.jar [max height] [filename]
 ## Examples
-    $ java -jar heightmap-converter-0.1.0-standalone.jar 16 myHeightmap.png
+    $ java -jar heightmap-converter-[version]-standalone.jar 16 myHeightmap.png
 An example heightmap can be found in `resources`
 
 ## License
