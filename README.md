@@ -12,3 +12,8 @@ get the release from https://github.com/Ximsa/Timberborn-Heightmap-Converter/rel
 ## Examples
     $ java -jar heightmap-converter-[version]-standalone.jar 16 myHeightmap.png
 An example heightmap can be found in `resources`
+
+## Misc
+Another heightmap converter written in python can be found here:
+https://github.com/MattMcMullan/Timberborn-Mapper
+
