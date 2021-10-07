@@ -17,9 +17,10 @@
 (defn convert [elevation filename]
   (def image (load-image filename))
   (def pixels (map low-bits (get-pixels image))) ;; extract the first color values
-  (def normalizedPixels (map #(int (* %1 %2))
+  (def min-elevation (apply min pixels))
+  (def normalizedPixels (map #(int (* (- %1 min-elevation) %2))
                              pixels
-                             (repeat (/ elevation (apply max pixels)))))
+                             (repeat (/ elevation (- (apply max pixels) min-elevation )))))
   (def size (count normalizedPixels))
   (spit (str (remove-extension filename) ".json")
         (json/generate-string
