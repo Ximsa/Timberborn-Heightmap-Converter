@@ -1,4 +1,4 @@
-(defproject heightmap-converter "0.1.3"
+(defproject heightmap-converter "0.2.0"
   :description "Converts a heightmap into the timberborn map format"
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [net.mikera/imagez "0.12.0"]
